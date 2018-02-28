@@ -16,9 +16,9 @@ from cm_api.api_client import ApiResource, ApiException
 from cm_api.http_client import HttpClient
 from cm_api.resource import Resource
 
-CM_HOST = '10.214.128.50'
-CM_USER = 'admin'
-CM_PASSWD = 'BigDataCd2017!'
+CM_HOST = '***'
+CM_USER = '***'
+CM_PASSWD = '***'
 VERSION = 13
 CM_USE_TLS = False
 

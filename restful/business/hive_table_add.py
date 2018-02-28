@@ -16,7 +16,7 @@ cmd_db_yesterday = "select * from idc_infrastructure_db.hive_db_info_all_daily w
 
 def query_hive_table(command):
     print 123
-    conn = connect(host='10.214.128.11', port=21050, user='yuanbowen1', password='523180', auth_mechanism="PLAIN")
+    conn = connect(host='***', port=21050, user='***', password='***', auth_mechanism="PLAIN")
     cur = conn.cursor()
     cur.execute(command)
     rows = cur.fetchall()
@@ -31,7 +31,7 @@ def query_hive_table(command):
 
 
 def query_hive_db(command):
-    conn = connect(host='10.214.128.11', port=21050, user='yuanbowen1', password='523180', auth_mechanism="PLAIN")
+    conn = connect(host='***', port=21050, user='***', password='***', auth_mechanism="PLAIN")
     cur = conn.cursor()
     cur.execute(command)
     rows = cur.fetchall()

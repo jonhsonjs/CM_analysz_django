@@ -28,7 +28,7 @@ def query_file_incr_info():
     time_list = []
     val_files_list = []
     val_size_list = []
-    conn = connect(host='10.214.128.11', port=21050, user="wanghuan70", password="Wanghuan689",
+    conn = connect(host='***', port=21050, user="***", password="***",
                    auth_mechanism="PLAIN")
     cur = conn.cursor()
     cur.execute(COMMAND)
@@ -43,7 +43,7 @@ def query_file_incr_info():
 
 
 def query_small_files():
-    conn = connect(host='10.214.128.11', port=21050, user="wanghuan70", password="Wanghuan689",
+    conn = connect(host='***', port=21050, user="***", password="***",
                    auth_mechanism="PLAIN")
     cur = conn.cursor()
     cur.execute(COMMAND1)
@@ -52,7 +52,7 @@ def query_small_files():
 
 
 def query_hdfs_contents(command):
-    conn = connect(host='10.214.128.11', port=21050, user='yuanbowen1', password='523180', auth_mechanism="PLAIN")
+    conn = connect(host='***', port=21050, user='***', password='***', auth_mechanism="PLAIN")
     cur = conn.cursor()
     cur.execute(command)
     rows = cur.fetchall()

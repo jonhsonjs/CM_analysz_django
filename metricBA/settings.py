@@ -162,10 +162,10 @@ STATICFILES_DIRS = [
 TEMPLATED_EMAIL_TEMPLATE_DIR = 'templated_email/'  # use '' for top level template dir, ensure there is a trailing slash
 TEMPLATED_EMAIL_FILE_EXTENSION = 'mako'
 
-EMAIL_HOST = '10.199.84.23'
+EMAIL_HOST = '****'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'wdcpalert'
-EMAIL_HOST_PASSWORD = 'wdcpalert123'
+EMAIL_HOST_USER = '***'
+EMAIL_HOST_PASSWORD = '***'
 EMAIL_SUBJECT_PREFIX = u'[BIGDATA]'
 EMAIL_USE_TLS = True
-SERVER_EMAIL = 'wdcpalert@wanda.com.cn'  # The email address that error messages come from, such as those sent to ADMINS and MANAGERS.
+SERVER_EMAIL = '***@***.com.cn'  # The email address that error messages come from, such as those sent to ADMINS and MANAGERS.
